@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Forms</title>
+    <style>
+        textarea{
+            resize: none
+        }
+    </style>
 </head>
 
 <body>
@@ -38,7 +43,18 @@
                 <input type="color">
             </label>
         </p>
-
+        <p>
+            <label>
+                Arquivo:
+                <input type="file" id="">
+            </label>
+        </p>
+        <p>
+            <label>
+                Deixe Sua Mensagem: 
+                <textarea name="" rows="6" cols="40" placeholder="Insira Seu Comentario" required></textarea>
+            </label>
+        </p>
         <input type="submit" value="Enviar">
     </form>
 </body>
