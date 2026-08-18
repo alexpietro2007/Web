@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+#titulo{
+    color: blue;
+}
+.descricao{
+    color: green;
+}
+p{
+    color: red;
+}
+.principal{
+    article{
+        background-color: brown;
+    }
+}
+main{
+    article{
+        background-color: cadetblue;
+        border: 2px dashed black;
+
+    }
+}

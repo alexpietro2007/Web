@@ -9,14 +9,15 @@
         /* seletor todo paragrafo dentro de um article */
         article{ 
             /* Os elementos pode ser descendentes diretos ou indiretos */
-            & p{
+            p{
                 padding: 10px;
                 background-color: bisque;
                 border-radius: 10px;
             }
             /* Somente descendentes diretos */
-            &>p{
+            >p{
                 color: crimson;
+                border: 2px dotted rgb(85, 85, 85);
             }
         }
         #principal p.promocao{
@@ -24,6 +25,9 @@
             background-color: burlywood;
             border-radius: 10px;
             
+        }
+        body #principal article section p.cordenacacao{
+            text-align: center;
         }
     </style>
 </head>
@@ -48,7 +52,7 @@
         </p>
         <p id="rodape" class="final-pagina">
             Todos os direitos reservados
-        </p>asdasd
+        </p>
     </main>
 </body>
 

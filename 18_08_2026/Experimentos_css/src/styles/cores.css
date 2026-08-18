@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+body {
+  background-color: #f9dec9;
+  text-align: center;
+}
+p {
+  padding: 10px;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  font-family: 'Story Script', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: underline 2px dashed;
+  border-width: 1px;
+  border-color: black;
+  border-style: dashed dashed solid dashed;
+}
+.engenharia {
+  background-color: burlywood;
+  color: brown;
+}
+.computacao {
+  background-color: #43c59e;
+  color: #14453d;
+}
+.dados {
+  background-color: #7785ac;
+  color: #a5e6ba;
+}
+.images {
+  width: 200px;
+  border-radius: 30px;
+  border: 1px black solid;
+  &:hover{
+    transform: scale(1.01);
+  }
+}
