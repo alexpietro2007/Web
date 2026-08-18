@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg6VRB8X-viCNpk7Y31ZUysapCFWP1ho1VFIa4mS0LnwSoXtQ4T0jDd4Dx&s=10");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  height: 99vh;
+}
+* {
+  padding: 0px;
+  border: 0px;
+}
+
+.titulo{
+    font-family: "Jim Nightshade";
+    font-size: 2rem;
+}
+.textos {
+  color: rgb(178, 178, 255);
+  text-decoration: underline;
+}
+.aviso {
+  color: rgb(255, 95, 95);
+  text-decoration: none;
+  display: inline-block;
+  &:hover{
+    color: rgb(253, 249, 0);
+  }
+}
+.finalPagina{
+    color: rgb(207, 219, 229);
+    border: 2px solid rgb(169, 169, 169);
+}
+#rodape{
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+}
+/* todo curso com esse fundo */
+.curso{
+    background-color: azure;
+    border-radius: 10px;
+    border: 2px solid rgb(169, 169, 169);
+}
+/* para novos cursos mudamos a cor do texto */
+.novoCurso{
+    background-color: azure;
+    color: crimson;
+}
