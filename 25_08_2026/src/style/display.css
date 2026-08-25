@@ -1,8 +1,55 @@
-body{
-    background-color: blanchedalmond;
+* {
+    padding: 0px;
+    margin: 0px;
 }
 
-p{
+body {
+    background-color: #8789C0;
+}
+
+.professores {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.engenharia {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
+.ciencias {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
+.rodape {
+    display: none;
+}
+
+article>* {
+    width: 99vw;
+    margin: 10px 5px 10px 5px;
+    text-align: center;
+    color: #fffd;
+}
+
+p {
     background-color: #3D7068;
+    border-radius: 10px;
 }
 
+a {
+    background-color: #43C59E;
+    text-align: center;
+}
+
+footer {
+    background-color: #3DFAFF;
+}
+
+button {
+    background-color: #011936;
+}
