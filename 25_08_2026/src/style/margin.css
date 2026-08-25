@@ -1,0 +1,28 @@
+body{
+    background-color: #7392B7;
+    border: 2px solid red;
+    margin: 0px;
+}
+.primeiro{
+    margin-left: 0px;
+}
+.primeiro, .segundo{
+    background-color: #D8E1E9;
+    border: 2px solid rgb(0, 0, 152);
+    padding: 12px;
+    width: 300px;
+    margin: 0px;
+}
+.terceiro, .quarto{
+    border: 2px solid green;
+}
+.terceiro{
+    margin: 10px 20px;
+}
+.quarto{
+    margin: 10px 20px 10px 40px;
+}
+.quinto{
+    border: 2px solid palevioletred;
+    margin: 10px 20px 30px 70px;
+}
