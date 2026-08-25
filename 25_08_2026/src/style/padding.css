@@ -1,0 +1,23 @@
+body{
+    background-color: #7392B7;
+}
+article{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 2px solid red;
+    padding: 0px 10vw 0px 10vw;
+}
+.primeiro, .segundo{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: #D8E1E9;
+}
+.primeiro{
+    padding: 20px;
+}
+.segundo{
+    padding: 20px 40px;
+}
