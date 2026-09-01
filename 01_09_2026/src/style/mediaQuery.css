@@ -1,0 +1,39 @@
+/* @media (max-width: 1280px){
+    p{
+        background-color: aqua;
+    }
+} */
+
+body{
+    margin: 0px;
+    background-color: #e4e4c5;
+    color: aliceblue;
+}
+.ciencias, .dados, .matematica{
+    /* display: inline-block; */
+    border: 2px solid rgb(82, 23, 138);
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    height: 100px;
+
+}
+main{
+    border: 2px solid rgb(173, 0, 0);
+    width: 99%;
+    margin: 0 auto;
+    text-align: center;
+}
+@media (min-width: 550px) {
+    .ciencias, .dados, .matematica{
+        background-color: #b9d48b;
+    }
+}
+
+@media (min-width: 900px) {
+    .ciencias, .dados, .matematica{
+        display: inline-block;
+        width: 20%;
+        background-color: #8d2036;
+    } 
+}
